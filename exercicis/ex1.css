@@ -9,12 +9,17 @@ body {
 a {
   color: orange;
 }
-
+p{
+}
 #slogan{
   font-weight: bolder;
 }
-
+a:hover {
+  color: hotpink;
+}
 .example_extract {
+  color: rgb(255, 94, 0);
+  font-size: 1vw;
   display: inline-block;
   width: 20%;
   height: 20%;
@@ -34,11 +39,12 @@ a {
 
 #example_list {
   border: 1px solid #3e2f2d;
-  margin: 20px;
-  padding: 20px;
+  margin: 2%;
+  padding: 2%;
 }
 
 #menu-principal {
+  font-size: 1vw;
   color: rgb(0, 0, 0);
   background-color: #ccc;
   display: inline-block;
@@ -55,8 +61,8 @@ a {
 }
 
 nav {
-  margin: 20px;
-  padding: 20px;
+  margin: 2%;
+  padding: 2%;
 }
 
 footer {
@@ -69,13 +75,13 @@ video {
 }
 
 .boton_enviar {
-  font-size: 20px;
-  padding: 3px;
-  margin: 30px;
+  font-size: 2%;
+  margin: 3%;
 }
 
 img{
-  width: auto;
+  width: 60%;
+
 }
 
 .btn {
@@ -110,6 +116,7 @@ img{
 }
 
 #copy {
+  font-size: 1vw;
   width: 70%;
   padding: 2.5%;
   float: left;
@@ -125,6 +132,8 @@ img{
 }
 
 .formulario{
+  font-size: 1vw;
+  color:black;
   width: 93%;
   height: 20%;
   margin: 1.39%;
@@ -136,10 +145,13 @@ img{
 }
 
 .form{
+  color:black;
+
   display: inline-block;
 }
 
 #form1{
+  color:black;
   width: 49%;
   
 }
