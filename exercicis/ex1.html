@@ -1,100 +1,107 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Anma</title>
-<meta charset="utf8">
-<link rel="stylesheet" href="ex1.css"></head>
+  <title>Anma</title>
+  <meta charset="utf8">
+  <link rel="stylesheet" href="ex1.css">
+</head>
 <body>
-<header id="menu-principal">
-<h1>Anma</h1>
-<h2>Subtitle</h2>
-<nav>
-<li><a href="#">Inici</a></li>
-<li><a href="#">Productes</a></li>
-<li><a href="#">Serveis</a></li>
-<li><a href="#">Contacte</a></li>
-</nav>
-</header>
-<section>
-<!-- afegim uns links per a anar a ampliar informació-->
-<article class="example_extract">
-<h1>Anime1</h1>
-<a href="#">Ampliar informació</a>
-</article>
-<article class="example_extract">
-<h1>Anime2</h1>
-<a href="#">Ampliar informació</a>
-</article>
-<article class="example_extract">
-<h1>Anime3</h1>
-<a href="#">Ampliar informació</a>
-</article class="example_extract">
-<article class="example_extract">
-<h1>Anime4</h1>
-<a href="#">Ampliar informació</a>
-</article>
-<article class="example_extract">
-<h1>Anime5</h1>
-<a href="#">Ampliar informació</a>
-</article class="example_extract">
-<article class="example_extract">
-<h1>Anime6</h1>
-<a href="#">Ampliar informació</a>
-</article>
-</article class="example_extract">
-<article class="example_extract">
-    <video controls>
-        <source src="video.mp4"/>
-    </video>
-</article>
+  <header >
+    <div id="menu-imagen">
+      <div id="menu-principal">
+        <div id=""><img id="imagenariba" src="https://static.zerochan.net/Hatsune.Miku.full.948851.jpg" alt="miku"></div>
+          <h1>Anma</h1>
+          <nav>
+            <li><a href="#" class="menu">Inici</a></li>
+            <li><a href="#" class="menu">Productes</a></li>
+            <li><a href="#" class="menu">Serveis</a></li>
+            <li><a href="#" class="menu">Contacte</a></li>
+          </nav>
+        <p id="slogan">"ANMA: Sumérgete en la esencia pura del anime, donde la profundidad habla por sí misma."</p>
+      </div>
+    </div>
+  </header>
 
+  <section>
+    <!-- afegim uns links per a anar a ampliar informació-->
+    <div class="group">
+      <article class="example_extract"><a href="https://jkanime.net/hametsu-no-oukoku/">
+        <h1>Hametsu no Ōkoku</h1>
+        <img src="imagenes/img1.jpg" alt="Portada Hametsu no Ōkoku">
+        <p><a href="#">Ampliar informació</a></p></a>
+      </article>
+      
+      <article class="example_extract"><a href="https://jkanime.net/ragna-crimson/">
+        <h1>Ragna Crimson</h1>
+        <img src="imagenes/img2.jpg" alt="Portada Ragna Crimson">
+        <p><a href="#">Ampliar informació</a></p></a>
+      </article>
+      
+      <article class="example_extract"><a href="https://jkanime.net/jujutsu-kaisen-tv/">
+        <h1>Jujutsu Kaisen</h1>
+        <img src="imagenes/img3.jpg" alt="Portada Jujutsu Kaisen">
+        <p><a href="#">Ampliar informació</a></p></a>
+      </article>
+    </div>
 
-</section>
-<article class="example_extract">
+    <div class="group">
+      <article class="example_extract"><a href="https://jkanime.net/made-in-abyss/">
+        <h1>Made in Abyss</h1>
+        <img src="imagenes/img4.jpg" alt="Portada Made in Abyss">
+        <p><a href="#">Ampliar informació</a></p></a>
+      </article>
+      
+      <article class="example_extract"><a href="https://hdfull.sbs/serie/solo-leveling">
+        <h1>Solo Leveling</h1>
+        <img src="imagenes/img5.jpg" alt="Portada Solo Leveling">
+        <p><a href="#">Ampliar informació</a></p></a>
+      </article>
+      
+      <article class="example_extract"><a href="https://jkanime.net/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-to-su/
+        ">
+        <h1>Shangri-La Frontier</h1>
+        <img src="imagenes/img6.jpg" alt="Portada Shangri-La Frontier">
+        <p><a href="#">Ampliar informació</a></p></a>
+      </article>
+    </div>
 
+  </section>
+
+  <article class="formulario">
     <form method="post" action="https://result.php">
-        <div>
-                <p>Nom: </p><input type="text" />
-                <p>Cojnom: </p><input type="text" />
-                <p>Asumpte: </p><input type="text" />
-                <p>País: </p>
-                <select>
-                    <option>España</option>
-                    <option>Fuera de España</option>
-                    </select>
-            <div>
-            </div>
-        </div>
-        <div>
-            <p>Missatge</p>
-            <textarea>àrea de text</textarea>
-            <input class="btn" type="button" value = "enviar">
-    
-    
-        </div>
-    
-    
-    
-        </form>
-    </article>
-<aside>
-<!-- indica elements relacionats pero no sempre
-necessaris-->
-<nav>
-<h1>Links relacionats</h1>
-<ul>
-<li><a
-href="https://hdfull.sbs/">HDFull</a></li>
-<li><a
-href="https://jkanime.net/">JKAnime</a></li>
-</ul>
-</nav>
-</aside>
-<!-- footer sempre anirà al final de la pàgina-->
-<footer>
-&copy;2023 EL meu repositori
-<!-- &copy és una de les moltes entitats que es poden fer
-servir -->
-</footer>
+      <div id="form1" class="form">
+        <p>Nom: </p><input type="text" />
+        <p>Cojnom: </p><input type="text" />
+        <p>Asumpte: </p><input type="text" />
+        <p>País: </p>
+        <select>
+          <option>España</option>
+          <option>Fuera de España</option>
+        </select>
+      </div>
+      <div id="form2" class="form">
+        <p>Missatge</p>
+        <textarea>àrea de text</textarea>
+        <input class="btn" type="button" value="enviar">
+      </div>
+    </form>
+  </article>
+
+  <aside>
+    <!-- indica elements relacionats pero no sempre necessaris-->
+  <nav>
+
+  </nav>
+  </aside>
+  <!-- footer sempre anirà al final de la pàgina-->
+  <footer>
+    <div id="copy" class="peu"> &copy;2023 EL meu repositori</div>
+    <div id="icons" class="peu">
+        <a href="https://www.facebook.com/?locale=ca_ES"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/220px-2021_Facebook_icon.svg.png" alt="Facebook_icon" class="ico"></a>
+        <a href="https://www.whatsapp.com/?lang=es"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" alt="whatsapp_icon" class="ico"></a>
+        <a href="https://twitter.com/?lang=ca"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/220px-Logo_of_Twitter.svg.png" alt="Logo_of_Twitter" class="ico"></a>
+        <a href="https://www.instagram.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram_logo_2022" class="ico"></a>
+    </div>
+    <!-- &copy és una de les moltes entitats que es poden fer servir -->
 </body>
 </html>
