@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-image: url('imagenesE2/img1.png');
+  background-size: 100% 100%;
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+
+}
+
+nav {
+  background-color: #333; /* Color de fondo del menú de navegación */
+  padding: 10px; /* Espaciado interno para un aspecto más agradable */
+}
+
+.ul {
+  list-style: none; /* Elimina los marcadores de lista predeterminados */
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Centra los elementos de la lista horizontalmente */
+}
+
+.li {
+  display: inline-block; /* Muestra los elementos de la lista en línea */
+  margin-right: 20px; /* Espaciado entre elementos de la lista */
+  font-size: 1.6vw;
+}
+
+a {
+  text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+  color: #fff; /* Color del texto del enlace */
+  font-weight: bold; /* Texto en negrita */
+}
+
+main {
+  padding: 20px; /* Espaciado interno para un aspecto más agradable */
+}
+
+section {
+  margin-bottom: 20px; /* Espaciado entre secciones */
+}
+
+h2 {
+  color: #333; /* Color del texto del encabezado */
+}
+
+p {
+  color: #555; /* Color del texto del párrafo */
+  line-height: 1.5; /* Altura de línea para una mejor legibilidad */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 5vw;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  background-color: #333;
+  border-radius: 5px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambio de color al pasar el ratón por encima */
+.button:hover {
+  background-color: #b2b184;
+  color: #fff;
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  
+}
+
+.button {
+  margin-right: 10px; /* Ajusta el margen según sea necesario */
+  width: 100%;
+  height: auto;
+}
+
+
+.button-link {
+  display: flex;
+  width: 100%;
+  text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+  color: inherit; /* Hereda el color del texto del botón */
+}
+
+.image-audio-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+
+}
+
+.image-audio-container img {
+  max-width: 100%; /* Ensures the image doesn't exceed the container width */
+}
+
+.image-audio-container {
+    display: flex;
+}
+
+.image-audio-container img {
+  margin-right: 0%; /* Ajusta el margen según sea necesario */
+
+}
+audio {
+  width: 100%;
+  height: 54px;
+}
+
+body{
+  background-color: antiquewhite;
+  font-size: 1.6vw;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.components, .instruments {
+    width: 48%;
+    padding: 10px;
+    
+}
+
+ul{
+  margin-left: 20%;
+  width: 100%;
+}
+ol{
+  margin-left: 20%;
+  width: 100%;
+}
+td{
+  width: 50%;
+}
+tr{
+  width: 100%;
+}
+
+
+.Sec2{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.flex-container > div{
+  display: flex;
+}
+
+.Sec2 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  width: 100%;
+}
+
+
+
+
+
+
+#copy {
+    font-size: 1.5vw;
+    width: 80%;
+    padding: 2.5%;
+    float: left;
+  
+  }
+  
+  #icons {
+    width: 15%;
+    display: inline-block;
+  
+  }
+  
+  .ico {
+    display: inline-block;
+  width: 20%;
+    }
+  
+  .contacto{
+    display: inline-block;
+  
+  }
