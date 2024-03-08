@@ -7,28 +7,100 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
+    <div> 
+        <nav>
+        <input class="menu" type="checkbox" id="menu">
+        <label class="menu" for="menu"> ☰ </label>
         <ul class="ul">
-          <li class="li"><a href="./exercicis/ex1.html">Web Productes</a></li>
-          <li class="li"><a href="./exercicis/ex2.html">Web Musica</a></li>
-          <li class="li"><a href="./exercicis/ex3.html">Web Castell</a></li>
+          <li class="li"><a href="#Estudis">Estudis</a></li>
+          <li class="li"><a href="#Curriculum">Curriculum</a></li>
+          <li class="li"><a href="#Projectes">Projectes</a></li>
+          <li class="li"><a href="#Exercicis">Exercicis Html</a></li>
+          <li class="li"><a href="#Contacte">Contacte</a></li>
         </ul>   
       </nav> 
-    <header>
+    </div> 
+
+<!--    <div class="respmenu">
+        <input type="checkbox">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+        <nav>
+        <ul class="ul">
+          <li class="li"><a href="#Estudis">Estudis</a></li>
+          <li class="li"><a href="#Curriculum">Curriculum</a></li>
+          <li class="li"><a href="#Projectes">Projectes</a></li>
+          <li class="li"><a href="#Exercicis">Exercicis Html</a></li>
+          <li class="li"><a href="#Contacte">Contacte</a></li>
+        </ul>   
+      </nav> 
+    </div> 
+-->
+    <div class="header">
         <h1>Pagina Pau</h1>
-    </header>   
-    <section>
-        <div class="section" id="hi">
-            <h2>Section 1</h2> 
-            <p class="linea">______________________________________________________________________________</p>
+    </div>   
+    
+    <section class="glob">
+        <div class="section" id="Estudis">
+            <h2>Estudis</h2>
+            <p class="linea">_______________________________________________________________________________</p> 
+            <section class="practicas">
+                <div>
+                    <a href="./exercicis/ex1.html"><img class="imgp" src="imgI/img1.png" alt=""></a>
+                </div>
+                <div>
+                    <a href="./exercicis/ex2.html"><img class="imgp" src="imgI/img2.png" alt=""></a>
+                </div>
+            </section>
         </div>
-        <div class="section" id="hi">
-            <h2>Section 2</h2> 
-            <p class="linea">______________________________________________________________________________</p>
+        <div class="section" id="Curriculum">
+            <h2>Curriculum</h2> 
+            <p class="linea">_______________________________________________________________________________</p>
+            <section>
+                <br>
+                <p>asdsas</p>
+                <div class="boton">
+                    <a href="M02_A1_Juárez_Pau.pdf" download>
+                        <button>Descargar Curriculum</button>
+                    </a>
+                </div>
+            </section>
         </div>
-        <div class="section" id="hi">
-            <h2>Section 3</h2> 
-            <p class="linea">______________________________________________________________________________</p>
+        <div class="section" id="Projectes">
+            <h2>Projectes</h2>
+            <p class="linea">_______________________________________________________________________________</p> 
+            <section class="practicas">
+
+            </section>
+        </div>
+        <div class="section" id="Exercicis">
+            <h2>Exercicis Html</h2>
+            <p class="linea">_______________________________________________________________________________</p> 
+            <section class="practicas">
+                <div>
+                    <a href="./exercicis/ex1.html"><img class="imgp" src="imgI/img1.png" alt=""></a>
+                </div>
+                <div>
+                    <a href="./exercicis/ex2.html"><img class="imgp" src="imgI/img2.png" alt=""></a>
+                </div>
+                <div>
+                    <a href="./exercicis/ex3.html"><img class="imgp" src="imgI/img3.png" alt=""></a>
+                </div>
+            </section>
+        </div>
+        <div class="section" id="Contacte">
+            <h2>Contacte</h2> 
+            <p class="linea">_______________________________________________________________________________</p>
+            <form>
+                <br>
+                <p>Name:</p>
+                <textarea placeholder="Tu nombre..."></textarea>
+                <p>Mail:</p>
+                <textarea placeholder="Tu Mail"></textarea>                
+                <p>Message:</p>
+                <textarea placeholder="Tu mensage"></textarea>                
+                <button type="submit" class="sbutton">Send</button>
+              </form>
         </div>
     </section>
     <footer id="contacto">
