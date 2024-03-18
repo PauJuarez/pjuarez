@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Numero aleatorio</h2>
+
+<script>
+  let numeroAleatorio = Math.floor(Math.random() * 4) + 1;
+  let numeroUsuario = prompt("Ingresa un número del 1 al 4:","1");
+  if (numeroUsuario >= 1 && numeroUsuario <= 4) {
+    if (numeroUsuario === numeroAleatorio) {
+      alert("¡Felicidades! Has acertado.");
+    } else {
+      alert("Lo siento, has fallado. El número correcto era " + numeroAleatorio + ".");
+    }
+  } else {
+    alert("Por favor, ingresa un número válido del 1 al 4.");
+  }
+</script>
+</body>
+</html> 
