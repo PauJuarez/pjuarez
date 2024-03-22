@@ -16,6 +16,7 @@
             <img id="card" src="goku.gif" />
             <a-asset-item id="avatarModel" src="n1/scene.gltf"></a-asset-item>
             <a-asset-item id="avatarMode2" src="n2/scene.gltf"></a-asset-item>
+            <a-asset-item id="avatarMode3" src="n3/scene.gltf"></a-asset-item>
 
         </a-assets>
 
@@ -37,6 +38,13 @@
           position="0 0 0"
           rotation="90 0 0"
           animation-mixer ="clip: Esqueleto|EsqueletoAction.001" >
+        </a-entity>
+        <a-entity mindar-image-target="targetIndex: 2">
+          <a-gltf-model src="#avatarMode3"
+          scale="0.3 0.3 0.3"
+          position="0 0 0"
+          rotation="90 0 0"
+          animation-mixer ="clip: Walk" >
         </a-entity>
     </a-scene>
   </body>
