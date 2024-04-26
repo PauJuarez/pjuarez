@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+
+
+}
+body {
+    background-image: url('img/Espacio.jpg');
+    background-size: cover; /* La imagen se ajustará para cubrir toda la pantalla */
+    background-position: center; /* La imagen se centrará en la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+*{
+    color: #fff;
+}
+
+#mole {
+
+}
+
+h1, h2 {
+    text-align: center;
+}
