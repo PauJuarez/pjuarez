@@ -15,7 +15,7 @@ function hitMole(mole) {
         score += 10;
         scoreDisplay.textContent = score;
         mole.src = 'img/topoPam.png'; // Cambia la imagen del topo a la imagen de golpeado
-        playSound('img/boing.mp3');
+        playSound('img/Voicy_Nya.mp3');
         setTimeout(() => hideMole(mole), 500); // Oculta el topo después de 500ms
     }
 }
