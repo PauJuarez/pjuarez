@@ -1,0 +1,64 @@
+section {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  height: 110px;
+  width: 40px;
+  font-size: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 5px;
+  background: white;
+  border-end-start-radius: 7px;
+  border-end-end-radius: 7px;
+  border: 2px solid yellow;
+  margin: -1px;
+  z-index: 1;
+}
+
+button:nth-child(even) {
+  background: rgb(0, 0, 0);
+  color: white;
+  height: 70px;
+  width: 30px;
+  margin-left: -15px;
+  margin-right: -15px;
+  z-index: 2;
+}
+
+body {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+}
+
+#ba, #deleteArray {
+  font-size: 1rem;
+  padding: 0.8em 2em;
+  background-color: #000;
+  border: 3px solid yellow;
+  border-radius: 1em;
+  color: #fff;
+  font-weight: bolder;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+  box-shadow: -5px 5px 0px 0px yellow;
+  height: 10%;
+  width: 40%;
+}
+
+#conten {
+  display: flex;
+  justify-content:space-around;
+}
+
+h1 {
+  color: #fff;
+}
+
+#notes {
+  color: #fff;
+}

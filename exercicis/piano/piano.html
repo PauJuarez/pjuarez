@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Piano</h1>
+    <section>
+        <button onclick="playMus(this)">do</button>
+        <button onclick="playMus(this)">re</button>
+        <button onclick="playMus(this)">mi</button>
+        <button onclick="playMus(this)">fa</button>
+        <button onclick="playMus(this)">sol</button>
+        <button onclick="playMus(this)">la</button>
+        <button onclick="playMus(this)">si</button>
+    </section>
+    <p id="notes"></p>
+    <div id="conten">
+    <button id="ba" onclick="playArray()">Reproducir todas las notas</button>
+    <button id="deleteArray" onclick="deletePlayArray()">Borrar notas reproducidas</button>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
