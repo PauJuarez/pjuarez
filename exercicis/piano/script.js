@@ -1,7 +1,7 @@
 let notes=[];
 document.getElementById("notes").innerText = "Notas reproducidas: ";
 function playMus(e){
-    e.style.background="red";
+    //e.style.background="red";
     let nota = e.innerHTML;
     var audio = new Audio("media/"+nota+'.mp3');
     audio.play();
