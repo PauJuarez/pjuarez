@@ -1,0 +1,11 @@
+Model Information:
+* title:	NekoArc Meowscarada
+* source:	https://sketchfab.com/3d-models/nekoarc-meowscarada-48529f0a0c07456b8e726612ea3f5d8f
+* author:	Stellaruz (https://sketchfab.com/Stellaruz)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "NekoArc Meowscarada" (https://sketchfab.com/3d-models/nekoarc-meowscarada-48529f0a0c07456b8e726612ea3f5d8f) by Stellaruz (https://sketchfab.com/Stellaruz) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

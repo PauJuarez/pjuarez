@@ -1,0 +1,11 @@
+Model Information:
+* title:	Magical Artefact
+* source:	https://sketchfab.com/3d-models/magical-artefact-8612640ec20b442280dae62bbd87ea5b
+* author:	Bl4ckGh0st (https://sketchfab.com/Bl4ckGh0st)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Magical Artefact" (https://sketchfab.com/3d-models/magical-artefact-8612640ec20b442280dae62bbd87ea5b) by Bl4ckGh0st (https://sketchfab.com/Bl4ckGh0st) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
