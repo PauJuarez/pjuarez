@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fredbear fnaf
+* source:	https://sketchfab.com/3d-models/fredbear-fnaf-1d0819976773469183e100765aa17244
+* author:	Lefty (https://sketchfab.com/keslomihail)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fredbear fnaf" (https://sketchfab.com/3d-models/fredbear-fnaf-1d0819976773469183e100765aa17244) by Lefty (https://sketchfab.com/keslomihail) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
